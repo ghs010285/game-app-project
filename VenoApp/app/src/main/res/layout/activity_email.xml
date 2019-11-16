@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasswordActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/set_email_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="40dp"
+            android:background="@color/background_color"
+            android:text="확인"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textColor="@color/red"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:text="개인정보 약관"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginStart="30dp"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="이메일 변경에 대해 개인정보를 수집합니다"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="1. 회원정보를 수정합니다.\n이메일은 로그인수단의 아이디로 변경을한다면 아이디도 변경이 되며 데이터베이스에 즉시 저장이 됩니다"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="2. 회원정보를 "/>-->
+
+
+</LinearLayout>

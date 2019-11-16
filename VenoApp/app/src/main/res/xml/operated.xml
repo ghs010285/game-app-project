@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>operated_background</key>
+        <value>Fetching config…</value>
+    </entry>
+    <entry>
+        <key>operated</key>
+        <value>fasle</value>
+    </entry>
+    <entry>
+        <key>operated_message</key>
+        <value>  </value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

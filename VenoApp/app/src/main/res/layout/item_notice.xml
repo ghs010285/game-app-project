@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/item_notice_top_layout"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/notice_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="0dp"
+        android:id="@+id/notice_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:paddingStart="5dp"
+        android:text="이름"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_notice_bottom_layout"
+        android:layout_below="@+id/item_notice_top_layout"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/notice_title"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 앱 공지 사항"/>
+
+    <TextView
+        android:id="@+id/notice_info"
+        android:layout_margin="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 앱 공지 사항"/>
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_below="@+id/item_notice_bottom_layout"
+        android:id="@+id/notice_time"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019.10.5"/>-->
+
+</RelativeLayout>
